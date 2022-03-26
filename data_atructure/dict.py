@@ -8,3 +8,15 @@ print(score["Japanese"])
 # 書き換えが可能(ミュータブル)
 score["Japanese"] = 100
 print(score["Japanese"])
+
+print("キーを取得")
+for key in score.keys():
+  print(key)
+
+print("値を取得")
+for value in score.values():
+  print(value)
+
+print("アイテムを取得")
+for item in score.items():
+  print(item)
