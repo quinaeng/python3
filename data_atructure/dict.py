@@ -4,6 +4,8 @@
 
 score = {"Japanese":80,"English":75,"Sience":90}
 print(score["Japanese"])
+print("検索結果")
+print(score.get("Japaneses"))
 
 # 書き換えが可能(ミュータブル)
 score["Japanese"] = 100
